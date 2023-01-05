@@ -14,7 +14,7 @@ const lists = computed<ILink[]>(() => [
 <template>
   <div class="mx-auto mt-4 max-w-sm">
     <div class="mb-10 flex items-center justify-between">
-      <a target="_blank" href="https://productdevbook.com">productdevbook.com</a>
+      <a target="_blank" href="https://prodev90-nuxt3-template.netlify.app/">https://prodev90-nuxt3-template.netlify.app/</a>
       <div class="flex space-x-2">
         <TemLanguageChange />
         <TemColorChange />
@@ -28,7 +28,7 @@ const lists = computed<ILink[]>(() => [
           height="160"
           width="160"
           src="https://avatars.githubusercontent.com/u/38668796?v=4"
-          alt="productdevbook"
+          alt="prodev90-nuxt3-template"
         >
 
         <div
@@ -37,23 +37,15 @@ const lists = computed<ILink[]>(() => [
           <a
             target="blank"
             class="font-bold text-gray-900 hover:bg-gray-300 dark:text-white dark:hover:bg-gray-400"
-            href="https://github.com/productdevbook"
+            href="https://github.com/prodev90"
           >
             <UnoIcon class="i-ph-github-logo-duotone" />
           </a>
 
           <a
-            class="hover:bg-gray-300 dark:hover:bg-gray-400"
-            href="https://twitter.com/productdevbook"
-            target="_blank"
-          >
-            <UnoIcon class="i-ph-twitter-logo-duotone" />
-          </a>
-
-          <a
             target="blank"
             class="font-bold text-gray-900 hover:bg-gray-300 dark:text-white dark:hover:bg-gray-400"
-            href="https://discord.gg/UN8mqgC79S"
+            href="https://discord.gg/prodev90"
           >
             <UnoIcon class="i-ph-discord-logo-duotone" />
           </a>
